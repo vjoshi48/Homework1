@@ -1,0 +1,74 @@
+/* Reset some default styles */
+h1, h2, h3, p{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.rednbold {
+    color: red;
+    font-weight: bold;
+
+}
+
+ul, ol {
+    display: table;
+    margin: 0 auto;
+}
+
+.assignments {
+    width: 50%;
+    margin: 0 auto;
+    border: none;
+    text-align: center;
+}
+
+.assignments th {
+    background-color: #333;
+    color: white;
+}
+
+.assignments tr:nth-child(even) {
+    background-color: #ffffff; /* alt row color */
+}
+
+.assignments tr:nth-child(odd) {
+    background-color: #c0c0c0; /* alt row color */
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+body {
+    font-family: sans-serif;
+    background-image: url('background.jpg');
+    background-size: cover; /* Optional: Scale the image to cover the entire background */
+    background-repeat: no-repeat; /* Optional: Prevent the image from repeating */
+  }  
+
+/* Style links */
+a {
+    text-decoration: none;
+    color: darkblue; /* Default link color */
+}
+
+/* Change link color on hover */
+a:hover {
+    color: rgb(169, 169, 214); /* Change link color on hover to blue */
+    text-decoration: underline;
+}
+
+/* Style the zebra-striped table */
+.zebra-striped tr:nth-child(odd) {
+    background-color: #f0f0f0; /* Light gray background for odd rows */
+}
+
+/* Style the quote */
+.quote {
+    color: rgb(149, 0, 255);
+    font-weight: bold;
+    text-align: center;
+}
